@@ -11,9 +11,9 @@
   box-shadow: none !important;
 }
 
-.navbar-toggler-icon{
+/* .navbar-toggler-icon{
   transition: all 0.3s ease-out !important;
-}
+} */
 
 .myicon{
   background-image: url("https://cdn3.iconfinder.com/data/icons/ios-and-android-solid-icons-vol-3-1/64/111-512.png") !important;
