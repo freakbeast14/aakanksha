@@ -1,0 +1,195 @@
+
+
+.carousel-holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container{
+    /* height: 45vh; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+    padding: 70px 35px 70px 35px !important;
+  }
+  
+  /* .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  .slide-heading{
+    font-weight: bold;
+    padding: 1rem;
+  }
+  .slide-date{
+    font-size: 0.75rem;
+    color: #898989;
+    padding: 1rem;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    /* height: 60%; */
+    height: 10em;
+    object-fit: cover;
+    /* border-radius: 10px 10px 0 0; */
+  }
+
+  @media screen and (min-width: 574px){
+  .swiper-slide img {
+    height: 16vw;
+  }
+}
+
+  .swiper1 .swiper-slide img{
+    border-radius: 20px 20px 0 0;
+  }
+  .swiper2 .swiper-pagination-bullet {
+    width: 4px !important;
+    height: 4px !important;
+    background: #D8D8D8 !important;
+    opacity: 1 !important;
+    border-radius: 50% !important;
+    /* border: 1px solid #898989 !important;
+    background-clip: content-box !important; */
+    padding: 2px !important;
+    box-sizing: initial;
+  }
+  
+  .swiper2 .swiper-pagination-bullet-active {
+    width: 7px !important;
+    height: 7px !important;
+    background: #E89F71 !important;
+    border: 1px solid #E89F71 !important;
+    background-clip: content-box !important;
+    padding: 4px !important;
+    /* transition: all 0.3s; */
+  }
+  
+  .swiper2 .swiper-pagination-bullets {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .swiper1 .swiper-pagination-bullets {
+    display: none;
+  }
+  
+  .swiper2 .swiper-slide {
+    /* border-radius: 10px !important; */
+    background: white;
+    color: black;
+  }
+  
+  .swiper1 .swiper-slide {
+    border-radius: 20px !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  }
+  
+  .swiper-button-next, .swiper-button-prev {
+    top: 50% !important;
+    width: 20px !important;
+    height: 20px !important;
+    color: #E89F71 !important;
+    /* background: #1b95e0 !important; */
+    background: #fff !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 50%;
+    box-sizing: initial;
+  }
+  
+  /* .swiper-button-next:after{
+    content: ">" !important;
+    font-weight: bold;
+  }
+  
+  
+  .swiper-button-prev:after{
+    content: "<" !important;
+    font-weight: bold;
+  } */
+  
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 25px !important;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+  .swiper2 .swiper-slide-next {
+    /* box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 0.5s ease-in-out;
+    /* transform: scale(1.1); */
+  } 
+  }
+
+  .swiper1-slide-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 0 15px;
+  }
+
+  .swiper1-slide-detail{
+    padding: 15px;
+  }
+
+  .swiper1-item-detail{
+    font-size: 12px;
+    width: 70%;
+  }
+
+  .swiper1-item-heading{
+    color: #2E266F;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .swiper1-item-rate, .swiper1-item-rate-green{
+    color: #FD6E6A;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .swiper1-item-rate-green{
+    color: #35CD8C;
+  }
+
+
+  .swiper1-item-detail{
+    color: #707070;
+  }
+  
+  .tips-and-tricks{
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3A3A3A;
+  }
+
+  .explore-div{
+    text-align: center;
+  }
+
+  .explore-title{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #3A3A3A;
+  }
+
+  .explore-para{
+    font-size: 1rem;
+    color: #707070;
+  }
