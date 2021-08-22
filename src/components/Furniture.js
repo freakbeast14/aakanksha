@@ -82,7 +82,7 @@ const Furniture = () => {
               alt="f-image"
             /> */}
             <Swiper
-              spaceBetween={30}
+              // spaceBetween={30}
               effect={"fade"}
               navigation={true}
               pagination={{
