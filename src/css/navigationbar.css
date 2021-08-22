@@ -9,6 +9,29 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .nav-item{
+    padding-left: 15px !important;
+  }
+}
+
 .nav-link {
   color: #3a3a3a !important;
+}
+
+.navbar-toggler{
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon{
+  transition: all 0.3s ease-out !important;
+}
+
+.myicon{
+  background-image: url("https://cdn3.iconfinder.com/data/icons/ios-and-android-solid-icons-vol-3-1/64/111-512.png") !important;
 }

@@ -1,17 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import "../css/navigationbar.css";
 
 const NavigationBar = () => {
+  const [click, setClick] = useState(false);
   return (
     <>
       <Navbar collapseOnSelect fixed="top" expand="sm" bg="light">
         <Container>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle
+            aria-controls="responsive-navbar-nav"
+            onClick={() => {
+              setClick(!click);
+              console.log(click);
+            }}
+          >
+            {click ? (
+              <span className="navbar-toggler-icon myicon"></span>
+            ) : (
+              <span className="navbar-toggler-icon"></span>
+            )}
+          </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="container-fluid">
               <Nav.Item>
-                <Nav.Link className="active" href="/">Home</Nav.Link>
+                <Nav.Link className="active" href="/">
+                  Home
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link href="/">Category</Nav.Link>
