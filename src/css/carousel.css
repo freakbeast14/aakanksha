@@ -175,6 +175,11 @@
     color: #707070;
   }
 
+  .swiper4 .swiper-slide-active {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 0.5s ease-in-out;
+  }
+
   @media screen and (min-width: 574px){
     .swiper-slide img {
       height: 16vw;
@@ -183,11 +188,10 @@
 
   @media screen and (min-width: 768px) {
     .swiper4 .swiper-slide-next {
-      /* box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px; */
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       transition: all 0.5s ease-in-out;
       /* transform: scale(1.1); */
-    } 
+    }
     .swiper-button-next, .swiper-button-prev{
       opacity: 1;
     }
