@@ -42,7 +42,7 @@ const Carousel1 = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img src="https://lh3.googleusercontent.com/proxy/gJG31204hnTI-ppJM7Av3YfWBd4kzgvI1KRtRM-XA__wJ8DimPkfFwb5D2HIqyKy8_IpKpOZGZV26j86UwsPND7859g_YWBhZpRuQf9CDEDSUfBCyA" />
+              <img src="https://previews.123rf.com/images/vankad/vankad1506/vankad150600029/41796677-delicious-burgers-with-fried-potato-balls-and-beer-on-a-rustic-table.jpg" />
               <div className="swiper1-content">
                 <div className="swiper1-slide-header">
                   <span className="swiper1-item-heading">Hand Sandwich</span>
