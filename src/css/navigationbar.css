@@ -1,20 +1,3 @@
-@media screen and (min-width: 576px) {
-  .login-nav-item {
-    margin-left: auto !important;
-  }
-}
-@media screen and (min-width: 768px) {
-  .nav-item:not(:last-child) {
-    padding-right: 20px !important;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .nav-item{
-    padding-left: 15px !important;
-  }
-}
-
 .nav-link {
   color: #3a3a3a !important;
 }
@@ -34,4 +17,21 @@
 
 .myicon{
   background-image: url("https://cdn3.iconfinder.com/data/icons/ios-and-android-solid-icons-vol-3-1/64/111-512.png") !important;
+}
+
+@media screen and (min-width: 576px) {
+  .login-nav-item {
+    margin-left: auto !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav-item:not(:last-child) {
+    padding-right: 20px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-item{
+    padding-left: 15px !important;
+  }
 }
