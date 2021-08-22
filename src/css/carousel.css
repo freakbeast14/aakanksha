@@ -99,8 +99,8 @@
   
   .swiper-button-next, .swiper-button-prev {
     top: 50% !important;
-    width: 20px !important;
-    height: 20px !important;
+    width: 15px !important;
+    height: 15px !important;
     color: #E89F71 !important;
     /* background: #1b95e0 !important; */
     background: #fff !important;
@@ -111,19 +111,8 @@
     opacity: 0.5;
   }
   
-  /* .swiper-button-next:after{
-    content: ">" !important;
-    font-weight: bold;
-  }
-  
-  
-  .swiper-button-prev:after{
-    content: "<" !important;
-    font-weight: bold;
-  } */
-  
   .swiper-button-next:after, .swiper-button-prev:after {
-    font-size: 25px !important;
+    font-size: 20px !important;
   }
 
   .swiper1-slide-header{
