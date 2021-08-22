@@ -12,8 +12,16 @@
 }
 .furniture-image img {
   width: 100%;
-  /* height: 20vw; */
-  object-fit: contain;
+  height: 16em;
+  object-fit: cover;
+}
+.furniture-image .swiper-container {
+  padding: 0 !important;
+}
+.furniture-image .swiper-button-next,
+.furniture-image .swiper-pagination-bullets,
+.furniture-image .swiper-button-prev {
+  display: none !important;
 }
 .furniture-heading {
   font-weight: bold;
@@ -59,7 +67,7 @@
   }
 }
 @media screen and (min-width: 1192px) {
-  .furniture-heading{
-      width: 60%;
+  .furniture-heading {
+    width: 60%;
   }
 }
