@@ -18,7 +18,7 @@ export default function Carousel() {
   return (
     <>
       <div className="explore-div"><div className="explore-title">Explore Our products</div><div className="explore-para">Lorem ipsum dolor sit amet</div></div>
-      <div className="carousel-holder swiper1">
+      <div className="carousel-holder swiper1 swiper2">
         <div className="main-container">
           <Swiper
             slidesPerView={window.innerWidth <= 768 ? 1 : 3}
@@ -109,7 +109,7 @@ export default function Carousel() {
           </Swiper>
         </div>
       </div>
-      <div className="carousel-holder swiper1">
+      <div className="carousel-holder swiper1 swiper3">
         <div className="main-container">
           <Swiper
             slidesPerView={window.innerWidth <= 768 ? 1 : 3}
@@ -201,7 +201,7 @@ export default function Carousel() {
         </div>
       </div>
       <div className="tips-and-tricks">Tips & Tricks</div>
-      <div className="carousel-holder swiper2">
+      <div className="carousel-holder swiper4">
         <div className="main-container">
           <Swiper
             slidesPerView={window.innerWidth <= 768 ? 1 : 3}
