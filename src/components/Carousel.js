@@ -22,7 +22,7 @@ export default function Carousel() {
         <div className="main-container">
           <Swiper
             slidesPerView={window.innerWidth <= 768 ? 1 : 3}
-            spaceBetween={50}
+            spaceBetween={35}
             slidesPerGroup={1}
             loop={true}
             loopFillGroupWithBlank={true}
@@ -113,7 +113,7 @@ export default function Carousel() {
         <div className="main-container">
           <Swiper
             slidesPerView={window.innerWidth <= 768 ? 1 : 3}
-            spaceBetween={50}
+            spaceBetween={35}
             slidesPerGroup={1}
             loop={true}
             loopFillGroupWithBlank={true}
@@ -205,7 +205,7 @@ export default function Carousel() {
         <div className="main-container">
           <Swiper
             slidesPerView={window.innerWidth <= 768 ? 1 : 3}
-            spaceBetween={50}
+            spaceBetween={35}
             slidesPerGroup={1}
             loop={true}
             loopFillGroupWithBlank={true}

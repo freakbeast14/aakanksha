@@ -27,7 +27,7 @@ const Carousel1 = () => {
         <div className="main-container">
           <Swiper
             slidesPerView={window.innerWidth <= 768 ? 1 : 3}
-            spaceBetween={50}
+            spaceBetween={35}
             slidesPerGroup={1}
             loop={true}
             loopFillGroupWithBlank={true}
