@@ -42,7 +42,7 @@ const Carousel1 = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img src="https://wpshopmart.com/wp-content/uploads/2016/12/Beautiful-Wallpaper-of-Nature.jpg" />
+              <img src="https://lh3.googleusercontent.com/proxy/gJG31204hnTI-ppJM7Av3YfWBd4kzgvI1KRtRM-XA__wJ8DimPkfFwb5D2HIqyKy8_IpKpOZGZV26j86UwsPND7859g_YWBhZpRuQf9CDEDSUfBCyA" />
               <div className="swiper1-content">
                 <div className="swiper1-slide-header">
                   <span className="swiper1-item-heading">Hand Sandwich</span>
@@ -56,7 +56,7 @@ const Carousel1 = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://wpshopmart.com/wp-content/uploads/2016/12/Desktop-Nature-Wallpaper.jpg" />
+              <img src="https://assets.aboutkidshealth.ca/AKHAssets/fast_food_better_choices.jpg?renditionid=21" />
               <div className="swiper1-content">
                 <div className="swiper1-slide-header">
                   <span className="swiper1-item-heading">Hand Sandwich</span>
@@ -70,7 +70,7 @@ const Carousel1 = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://wpshopmart.com/wp-content/uploads/2016/12/beach-sea-photography.jpg" />
+              <img src="https://annamodisha.com/wp-content/uploads/2020/09/Veg-Toast-Sandwich.jpg" />
               <div className="swiper1-content">
                 <div className="swiper1-slide-header">
                   <span className="swiper1-item-heading">Hand Sandwich</span>
@@ -84,7 +84,7 @@ const Carousel1 = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://wpshopmart.com/wp-content/uploads/2016/12/beautiful-sunrise.jpg" />
+              <img src="https://www.waitoafreerange.co.nz/media/1847/recipes_2400x180075.jpg?width=1200" />
               <div className="swiper1-content">
                 <div className="swiper1-slide-header">
                   <span className="swiper1-item-heading">Hand Sandwich</span>
@@ -98,7 +98,7 @@ const Carousel1 = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://wpshopmart.com/wp-content/uploads/2016/12/flower-wallpaper-hd-purple-wallpaper.jpg" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNrOO17HWIhCP9qg83g_TIiUGAD4477eeau5x6X0h2nODSZ0GdzF7ltQN4_0bSNM1sy_A&usqp=CAU" />
               <div className="swiper1-content">
                 <div className="swiper1-slide-header">
                   <span className="swiper1-item-heading">Hand Sandwich</span>
