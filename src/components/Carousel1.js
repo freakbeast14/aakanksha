@@ -26,7 +26,7 @@ const Carousel1 = () => {
       <div className="carousel-holder swiper1">
         <div className="main-container">
           <Swiper
-            slidesPerView={window.innerWidth <= 768 ? 1 : 3}
+            slidesPerView={window.innerWidth <= 768 ? (window.innerWidth <= 576 ? 1 : 2) : 3}
             spaceBetween={35}
             slidesPerGroup={1}
             loop={true}
