@@ -30,7 +30,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
   .nav-item{
     padding-left: 15px !important;
   }
