@@ -24,7 +24,7 @@ const NavigationBar = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="container-fluid">
               <Nav.Item>
-                <Nav.Link className="active" href="/">
+                <Nav.Link href="/">
                   Home
                 </Nav.Link>
               </Nav.Item>
