@@ -7,12 +7,14 @@ import Furniture from "./Furniture";
 import NavigationBar from "./NavigationBar";
 import Review from "./Review";
 import Team from "./Team";
+import Matter from "./Matter";
 
 const Home = () => {
   return (
     <>
       <NavigationBar />
       <Banner />
+      <Matter />
       <Carousel1/>
       <Furniture />
       <Carousel />

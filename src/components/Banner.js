@@ -31,7 +31,7 @@ const Banner = () => {
           clickable: true,
         }}
         navigation={true}
-        classNameName="mySwiper"
+        className="mySwiper"
       >
       <SwiperSlide>
         <img className="swiper-slide-image" src="banner1.png" alt="banner" />

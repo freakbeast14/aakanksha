@@ -11,13 +11,13 @@ const Footer = () => {
             <p className="content-aksha">All over India shipping. We sell more than 100+ brands and of course our domains are awesome.</p>
             <ul>
               <li>
-                <a href="#"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Location</a>
+                <a href="#"><i className="fa fa-map-marker"></i>&nbsp;&nbsp;Location</a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-phone"></i>&nbsp;&nbsp;1800-345-786</a>
+                <a href="#"><i className="fa fa-phone"></i>&nbsp;&nbsp;1800-345-786</a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-globe"></i>&nbsp;&nbsp;www.aakanksha.com</a>
+                <a href="#"><i className="fa fa-globe"></i>&nbsp;&nbsp;www.aakanksha.com</a>
               </li>
             </ul>
           </div>
