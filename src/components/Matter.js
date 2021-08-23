@@ -7,7 +7,7 @@ const Matter = () => {
       <div className="matter-container">
         <div className="description-holder">
           <div className="description-container">
-            <div className="description-title">Some Thing for Everyone</div>
+            <div className="description-title">Something for Everyone</div>
             <div className="description-content">
               <p>
                 AAKANKSHA is registered under the Indian Government MSME
