@@ -1,4 +1,5 @@
 import React from "react";
+import Banner from "./Banner";
 import Carousel from "./Carousel";
 import Carousel1 from "./Carousel1";
 import Footer from "./Footer";
@@ -11,6 +12,7 @@ const Home = () => {
   return (
     <>
       <NavigationBar />
+      <Banner />
       <Carousel1/>
       <Furniture />
       <Carousel />
