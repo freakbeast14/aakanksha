@@ -1,0 +1,87 @@
+.swiper5 .swiper-container {
+  padding: 30px !important;
+}
+
+.swiper5 .swiper-button-next,
+.swiper5 .swiper-button-prev {
+  top: 55% !important;
+  opacity: 0.5;
+}
+
+.swiper5-content {
+  background: #fff;
+  padding: 2em;
+  border-radius: 20px;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+
+.swiper5-city {
+  font-size: 1em;
+  color: #3b3b3b;
+}
+.swiper5-company {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #e89f71;
+  padding-bottom: 1em;
+}
+.swiper5-para {
+  font-size: 0.85em;
+  color: #3b3b3b;
+  padding-bottom: 1em;
+}
+.swiper5-name {
+  font-size: 1em;
+  color: #2e266f;
+  font-weight: 500;
+  text-align: right;
+}
+
+@media screen and (max-width: 1075px) {
+  .swiper5 img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper5 .main-container {
+    width: 75%;
+  }
+  .swiper5 {
+    background-image: url("../images/reviewBg.svg");
+    background-size: cover !important;
+  }
+}
+
+@media screen and (min-width: 1076px) {
+  .swiper5 .swiper-button-next {
+    top: 75% !important;
+    opacity: 1;
+  }
+
+  .swiper5 .swiper-button-prev {
+    left: 47% !important;
+    top: 75% !important;
+    opacity: 1;
+  }
+
+  .swiper5 img {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    border-radius: 20px !important;
+    height: 25vw;
+  }
+
+  .swiper5-content {
+    position: absolute;
+    width: 60%;
+  }
+
+  .swiper5 .swiper-slide {
+    border-radius: 0;
+    box-shadow: none;
+    height: 30vw;
+  }
+}
