@@ -9,6 +9,7 @@ import Review from "./Review";
 import Team from "./Team";
 import Matter from "./Matter";
 import Carousel0 from "./Carousel0";
+import Trending from "./Trending";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Banner />
       <Carousel0 />
       <Matter />
+      <Trending />
       <Carousel1/>
       <Furniture />
       <Carousel />
