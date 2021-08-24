@@ -46,19 +46,19 @@ export default function Trending() {
               className="mySwiper"
             >
               <SwiperSlide>
-                <img src="https://wpshopmart.com/wp-content/uploads/2016/12/Beautiful-Wallpaper-of-Nature.jpg" />
+                <img src="https://thumbs.dreamstime.com/b/natural-scandinavian-living-room-interior-wooden-furniture-mockup-picture-empty-white-wall-154024411.jpg" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://wpshopmart.com/wp-content/uploads/2016/12/Desktop-Nature-Wallpaper.jpg" />
+                <img src="https://thumbs.dreamstime.com/b/pair-sport-shoes-colorful-background-copy-space-overhead-shot-running-top-view-flat-lay-colourful-191565267.jpg" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://wpshopmart.com/wp-content/uploads/2016/12/beach-sea-photography.jpg" />
+                <img src="https://preppykitchen.com/wp-content/uploads/2019/05/White-Cake-Feature.jpg" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://wpshopmart.com/wp-content/uploads/2016/12/beautiful-sunrise.jpg" />
+                <img src="https://cdn.cnn.com/cnnnext/dam/assets/201207080817-best-laptops-lead-december-lead.jpg" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://wpshopmart.com/wp-content/uploads/2016/12/flower-wallpaper-hd-purple-wallpaper.jpg" />
+                <img src="https://static.toiimg.com/photo/msid-74824961/74824961.jpg?219207" />
               </SwiperSlide>
             </Swiper>
           </div>
