@@ -382,4 +382,15 @@
     padding-top: 30px !important;
     margin: 0 2.5% !important;
   }
+  .trending-swiper .swiper-pagination-bullet {
+    width: 2px !important;
+    height: 2px !important;
+    padding: 1px !important;
+  }
+  
+  .trending-swiper .swiper-pagination-bullet-active {
+    width: 4px !important;
+    height: 4px !important;
+    padding: 3px !important;
+  }
 }
