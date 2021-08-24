@@ -222,7 +222,7 @@
     position: absolute;
     color: #fff;
     font-size: 2.5em;
-    font-family: "Nunito Sans";
+    /* font-family: "Nunito Sans"; */
     top: 0.2em;
     left: 0.4em;
   }
