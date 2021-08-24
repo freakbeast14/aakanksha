@@ -10,6 +10,7 @@ import "../css/carousel.css";
 
 // import Swiper core and required modules
 import SwiperCore, { Pagination, Navigation, Autoplay } from "swiper/core";
+import FadeInSection from "./FadeInSection";
 
 // install Swiper modules
 SwiperCore.use([Pagination, Navigation, Autoplay]);
@@ -17,6 +18,7 @@ SwiperCore.use([Pagination, Navigation, Autoplay]);
 export default function Carousel() {
   return (
     <>
+    <FadeInSection >
       <div className="explore-div"><div className="explore-title">Explore Our products</div><div className="explore-para">Lorem ipsum dolor sit amet</div></div>
       <div className="carousel-holder swiper1 swiper2">
         <div className="main-container">
@@ -200,6 +202,8 @@ export default function Carousel() {
           </Swiper>
         </div>
       </div>
+      </FadeInSection>
+      <FadeInSection>
       <div className="tips-and-tricks">Tips & Tricks</div>
       <div className="carousel-holder swiper4">
         <div className="main-container">
@@ -247,6 +251,7 @@ export default function Carousel() {
           </Swiper>
         </div>
       </div>
+      </FadeInSection>
     </>
   );
 }

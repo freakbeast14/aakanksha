@@ -10,21 +10,42 @@ import Team from "./Team";
 import Matter from "./Matter";
 import Carousel0 from "./Carousel0";
 import Trending from "./Trending";
+import FadeInSection from "./FadeInSection";
 
 const Home = () => {
   return (
     <>
       <NavigationBar />
-      <Banner />
-      <Carousel0 />
-      <Matter />
-      <Trending />
-      <Carousel1/>
-      <Furniture />
-      <Carousel />
-      <Review />
-      <Team />
-      <Footer />
+      <FadeInSection>
+        <Banner />
+      </FadeInSection>
+      <FadeInSection>
+        <Carousel0 />
+      </FadeInSection>
+      <FadeInSection>
+        <Matter />
+      </FadeInSection>
+      <FadeInSection>
+        <Trending />
+      </FadeInSection>
+      <FadeInSection>
+        <Carousel1 />
+      </FadeInSection>
+      <FadeInSection>
+        <Furniture />
+      </FadeInSection>
+      <FadeInSection>
+        <Carousel />
+      </FadeInSection>
+      <FadeInSection>
+        <Review />
+      </FadeInSection>
+      <FadeInSection>
+        <Team />
+      </FadeInSection>
+      <FadeInSection>
+        <Footer />
+      </FadeInSection>
     </>
   );
 };
