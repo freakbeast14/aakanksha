@@ -30,7 +30,7 @@ export default function Trending() {
           </div>
           <div className="main-container">
             <Swiper
-              slidesPerView={window.innerWidth <= 768 ? 2 : 3}
+              slidesPerView={window.innerWidth < 768 ? 2 : 3}
               spaceBetween={20}
               slidesPerGroup={1}
               loop={true}
@@ -39,10 +39,10 @@ export default function Trending() {
                 clickable: true,
               }}
               navigation={true}
-              // autoplay={{
-              //   delay: 1500,
-              //   disableOnInteraction: false
-              // }}
+              autoplay={{
+                delay: 2000,
+                disableOnInteraction: false
+              }}
               className="mySwiper"
             >
               <SwiperSlide>
