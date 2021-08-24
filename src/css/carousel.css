@@ -257,6 +257,10 @@
   width: 30%;
 }
 
+.trending-swiper .swiper-slide, .trending-swiper .swiper-slide-active, .trending-swiper .swiper-next, .trending-swiper .swiper-prev{
+  box-shadow: none !important;
+}
+
 .trending-swiper .swiper-pagination-bullets {
   justify-content: flex-start !important;
   width: 49% !important;
