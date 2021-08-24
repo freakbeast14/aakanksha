@@ -360,7 +360,7 @@
 
 @media screen and (max-width: 576px) {
   .trending-matter-container {
-    padding-left: 1em;
+    padding-left: 3% !important;
   }
   .trending-swiper .swiper-pagination-bullets {
     bottom: 0px !important;
@@ -378,9 +378,9 @@
   }
 
   .trending-swiper .main-container {
-    width: 95% !important;
+    width: 94% !important;
     padding-top: 30px !important;
-    margin: 0 2.5% !important;
+    margin: 0 3% !important;
   }
   .trending-swiper .swiper-pagination-bullet {
     width: 2px !important;
