@@ -221,8 +221,8 @@
   .swiper0-matter{
     position: absolute;
     color: #fff;
-    font-size: 2.5em;
-    /* font-family: "Nunito Sans"; */
+    font-size: 2em;
+    font-family: "Nunito Sans";
     top: 0.2em;
     left: 0.4em;
   }
@@ -233,6 +233,9 @@
     }
     .swiper0 img{
       height: 30vw !important;
+    }
+    .swiper0-matter{
+      font-size: 2em !important;
     }
   }
   @media screen and (min-width: 768px) {
