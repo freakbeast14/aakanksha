@@ -31,9 +31,10 @@ const Carousel0 = () => {
               clickable: true,
             }}
             navigation={true}
+            speed={3000}
             autoplay={{
               delay: 1500,
-              disableOnInteraction: false
+              disableOnInteraction: false,
             }}
             className="mySwiper"
           >

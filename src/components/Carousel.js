@@ -217,6 +217,7 @@ export default function Carousel() {
               clickable: true,
             }}
             navigation={true}
+            speed={3000}
             autoplay={{
               delay: 1500,
               disableOnInteraction: false

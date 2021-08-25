@@ -54,6 +54,7 @@ const Furniture = () => {
               pagination={{
                 clickable: true,
               }}
+              speed={2000}
               autoplay={{
                 delay: 1500,
                 disableOnInteraction: false,
@@ -88,6 +89,7 @@ const Furniture = () => {
               pagination={{
                 clickable: true,
               }}
+              speed={2000}
               autoplay={{
                 delay: 1500,
                 disableOnInteraction: false,

@@ -26,6 +26,9 @@ const Review = () => {
         <div className="main-container">
           <Swiper
             effect={"flip"}
+            flipEffect={{
+              slideShadows: false
+            }}
             slidesPerView={1}
             spaceBetween={35}
             slidesPerGroup={1}
@@ -35,6 +38,7 @@ const Review = () => {
               clickable: true,
             }}
             navigation={true}
+            speed={3000}
             // autoplay={{
             //   delay: 1000,
             //   disableOnInteraction: false

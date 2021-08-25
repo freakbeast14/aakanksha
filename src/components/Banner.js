@@ -23,6 +23,7 @@ const Banner = () => {
         effect={"fade"}
         spaceBetween={30}
         centeredSlides={true}
+        speed={3000}
         autoplay={{
           delay: 2000,
           disableOnInteraction: false,

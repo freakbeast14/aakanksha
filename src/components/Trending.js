@@ -39,6 +39,7 @@ export default function Trending() {
                 clickable: true,
               }}
               navigation={true}
+              speed={2000}
               autoplay={{
                 delay: 2000,
                 disableOnInteraction: false
